@@ -85,7 +85,7 @@ class DoublyLinkedList:
     if self.length == 1:
       self.tail = None
     self.length -=1
-    return p
+    return p.value
 
 
   def add_to_tail(self, value):
@@ -120,7 +120,7 @@ class DoublyLinkedList:
       self.head = None
 
     self.length -= 1
-    return old_tail
+    return old_tail.value
 
 
   def move_to_front(self, node):
