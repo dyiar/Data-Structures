@@ -29,13 +29,23 @@ O(log n)
 
 1. What is the runtime complexity of `_bubble_up`?
 
+O( log n)
+
 2. What is the runtime complexity of `_sift_down`?
+
+o (log n)
 
 3. What is the runtime complexity of `insert`?
 
+o(log n)
+
 4. What is the runtime complexity of `delete`?
 
+o(log n)
+
 5. What is the runtime complexity of `get_max`?
+
+o(1)
 
 ## Doubly Linked List
 
